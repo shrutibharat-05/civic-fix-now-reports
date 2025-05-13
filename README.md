@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# 🛠️ FixItNow
 
-## Project info
+**FixItNow** is a community-powered platform designed to help users report local civic issues—like potholes, garbage overflow, and broken infrastructure—and get them resolved faster through real-time updates and transparency.
 
-**URL**: https://lovable.dev/projects/31ed9051-060f-48cb-84a3-f30bac6f7a65
+---
 
-## How can I edit this code?
+## 📸 Preview
 
-There are several ways of editing your application.
+![FixItNow Demo Screenshot](demo-screenshot.png)  
+*(Replace with your actual image or demo GIF)*
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/31ed9051-060f-48cb-84a3-f30bac6f7a65) and start prompting.
+## 🚀 Live Demo
 
-Changes made via Lovable will be committed automatically to this repo.
+👉 [Click here to try the demo](https://your-demo-link.com)  
+*(Add your deployed project link here if available)*
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 💡 Inspiration
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Every day, people come across unresolved problems in their locality, but there’s no unified system to report or track them. **FixItNow** was built during a hackathon with the vision of empowering citizens to raise their concerns and drive real, visible change.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🔧 Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- 📍 Submit local issues with description, image, and location
+- 🔁 Track status: pending → in-progress → resolved
+- 👍 Upvote existing complaints
+- 🗺️ GPS-based auto-location tagging using Google Maps API
+- 🔔 Real-time notifications and status updates
+- 📊 View community issue analytics
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🧱 Tech Stack
 
-**Edit a file directly in GitHub**
+**Frontend**  
+- React Native  
+- Firebase Authentication  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**Backend**  
+- Node.js  
+- Express.js  
 
-**Use GitHub Codespaces**
+**Database**  
+- Firebase Firestore  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+**APIs & Services**  
+- Google Maps API  
+- Firebase Cloud Messaging (for notifications)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📦 Installation & Setup
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+# Clone the repository
+git clone https://github.com/your-username/FixItNow.git
+cd FixItNow
 
-## How can I deploy this project?
+# Install frontend dependencies
+cd client
+npm install
 
-Simply open [Lovable](https://lovable.dev/projects/31ed9051-060f-48cb-84a3-f30bac6f7a65) and click on Share -> Publish.
+# Install backend dependencies
+cd ../server
+npm install
 
-## Can I connect a custom domain to my Lovable project?
+# Start frontend
+cd ../client
+npm start
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Start backend
+cd ../server
+node index.js
