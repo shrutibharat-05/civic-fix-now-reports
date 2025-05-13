@@ -4,16 +4,10 @@
 
 ---
 
-## 📸 Preview
-
-![FixItNow Demo Screenshot](demo-screenshot.png)  
-*(Replace with your actual image or demo GIF)*
-
----
 
 ## 🚀 Live Demo
 
-👉 [Click here to try the demo](https://your-demo-link.com)  
+👉 [Click here to try the demo]([https://your-demo-link.com](https://civic-fix-now-reports.lovable.app/))  
 *(Add your deployed project link here if available)*
 
 ---
