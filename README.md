@@ -7,7 +7,7 @@
 
 ## 🚀 Live Demo
 
-👉 [Click here to try the demo]([https://your-demo-link.com](https://civic-fix-now-reports.lovable.app/))  
+👉 [Click here to try the demo](https://civic-fix-now-reports.lovable.app/)
 *(Add your deployed project link here if available)*
 
 ---
