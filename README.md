@@ -2,7 +2,9 @@
 
 **FixItNow** is a community-powered platform designed to help users report local civic issues—like potholes, garbage overflow, and broken infrastructure—and get them resolved faster through real-time updates and transparency.
 
----
+
+
+----
 
 ## 🚀 Live Demo
 
